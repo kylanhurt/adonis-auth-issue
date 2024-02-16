@@ -1,0 +1,31 @@
+.loginPage {
+  min-width: 300px;
+
+  .emailRoot {
+    margin-bottom: 20px;
+  }
+
+  .checks {
+    margin-bottom: 2rem;
+  }
+  .invalid {
+    background-color: var(--mantine-color-red-light);
+  }
+  
+  .icon {
+    color: light-dark(var(--mantine-color-red-6), var(--mantine-color-red-7));
+  }
+  
+  .emailInput{
+    color: inherit;
+  }
+  
+  .buttonRoot {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .extraLinks {
+    font-size: 0.8rem;
+  }
+}

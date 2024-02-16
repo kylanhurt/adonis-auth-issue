@@ -1,0 +1,54 @@
+{
+    "info": {
+        "_postman_id": "8210f821-6eaa-4d01-9a81-7766c7ca731c",
+        "name": "CIRA",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "http://localhost:3333/accounts",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:3333/accounts/1",
+                    "path": [
+                        "accounts",
+                        "1"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3333"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{}"
+                }
+            }
+        },
+        {
+            "name": "http://localhost:3333/account",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://localhost:3333/account",
+                    "path": [
+                        "account"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3333"
+                }
+            }
+        }
+    ]
+}
