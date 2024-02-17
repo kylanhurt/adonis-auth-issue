@@ -7,7 +7,9 @@ export default function Dashboard() {
 
   const testAdonis = async () => {
     try {
-      const { data } = await axios.post("http://localhost:3333/test");
+      const { data } = await axios.post("http://localhost:3333/test", {
+        withCredentials: true
+      });
       console.log(data);
       setResponse(data);
     } catch (err) {
@@ -15,7 +17,6 @@ export default function Dashboard() {
       setResponse(err.response.data);
     }
   };
-  gi;
 
   return (
     <div
