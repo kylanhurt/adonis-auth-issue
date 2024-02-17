@@ -1,4 +1,4 @@
-# Adonis Auth Issue
+# Adonis 5 + React Auth (Web + Session) Example
 
 ## Frontend
 
